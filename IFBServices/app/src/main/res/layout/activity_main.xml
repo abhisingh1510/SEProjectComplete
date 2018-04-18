@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.abhisheksingh.ifbservices.MainActivity">
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="183dp"
+        android:layout_height="64dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:elevation="24dp"
+        android:text="ADMINISTRATOR"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="183dp"
+        android:layout_height="64dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="EMPLOYEE"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="183dp"
+        android:layout_height="64dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="GUEST"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+</android.support.constraint.ConstraintLayout>
